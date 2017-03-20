@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title>Pixalike</title>
+<meta charset="utf-8">
+<meta name="p:domain_verify" content="b535143cc57cd578f15a20e10572eb99"/>
+<meta name="google-site-verification" content="yUdVX2hx67BUZzq9JWBTYIzV-xwoYnkEx-gxxErpLvs" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<meta name="description" content="DNZG / Мобильный и веб-дизайнер из Казани">
+
+<meta name="og:title" property="og:title" content="DNZG">
+<meta name="og:description" property="og:description" content="Мобильный и веб-дизайнер, предприниматель из Казани. Основатель TatarTravel.">
+<meta name="og:image" property="og:image" content="img/dnzg.jpg">
+<meta name="og:type" property="og:type" content="website">
+
+<meta name="twitter:card" content="photo">
+<meta name="twitter:site" content="@dnzgd">
+<meta name="twitter:creator" content="@dnzgd">
+<meta name="twitter:title" content="DNZG">
+<meta name="twitter:description" content="Мобильный и веб-дизайнер, предприниматель из Казани. Основатель TatarTravel.">
+<meta name="twitter:image:src" content="img/dnzg.jpg">
+    
+<link href="style.css" rel="stylesheet">
+<link rel="image_src" href="img/dnzg.jpg">
+<link href="img/apple.png" rel="apple-touch-icon-precomposed">
+<link href="img/favicon.ico" rel="shortcut icon">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="container">
+<div id="logo"></div>
+
+<form method="GET" action="insta">
+	<input type="text" name="add" class="link" placeholder="Ссылка на фото..">
+	<button class="go">Накрутить</button>
+</form>
+
+<div id="faq">
+	<a href="">Есть вопрос? Прочитайте наш FAQ.</a>
+</div>
+</div>
+</body>
+</html>
