@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+html,body,div,span,applet,button,input,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin:0;
+    padding:0;
+    border:0;
+    font:inherit;
+    color: inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    -webkit-font-smoothing: subpixel-antialiased;
+    list-style:none;
+    font-family: 'Roboto', sans-serif;
+    color: #313840;
+}
+
+body {
+    max-width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#container {
+    background-image: linear-gradient(-134deg, #B384FF 0%, #0888EB 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #B384FF;
+    box-sizing: border-box;
+    padding: 0 30px;
+     max-height: 100%;
+     height: 100%;
+     display: block;
+     position: absolute;
+     bottom: 0; top: 0;
+    width: 100%;
+}
+
+#logo {
+    background-image: url(logo.svg);
+    width: 170px; height: 25px;
+    background-size: cover;
+    margin: 100px auto 0;
+}
+
+input.link {
+    margin: 40px 0 0;
+    border: none;
+    background: none;
+    border-bottom: 3px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    padding: 16px;
+    color: rgba(255,255,255,0.7);
+    width: 100%;
+    outline: none;
+    font-weight: 400;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+    ::-webkit-input-placeholder {color:rgba(255,255,255,0.7);}
+    ::-moz-placeholder          {color:rgba(255,255,255,0.7);}
+    :-moz-placeholder           {color:rgba(255,255,255,0.7);}
+    :-ms-input-placeholder      {color:rgba(255,255,255,0.7);}
+    .link::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+    .link::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+    .link:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+    .link:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+    .link:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+    .link:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+    .link:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+    .link:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+button.go {
+    outline: none;
+    margin: 40px 0 0;
+    width: 100%;
+    border-radius: 42px;
+    background-color: #fff;
+    color: #4E87F3;
+    font-weight: 700;
+    padding: 21px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#faq {
+    margin: 100px auto 30px;
+}
+
+#faq a {
+    color: rgba(255,255,255,0.7);
+    font-weight: 400;
+}
